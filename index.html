@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo">Bilgehan wants to know what innerHTML does</p>
+    <button onclick='document.getElementById("demo").innerHTML = "well it does this exactly"  '>Click Me</button>
+
+    <p>by assigning an onclick attribute to your button, button onclick = 'document.getElementById("id you assigned").innerHTML = "text you want to change to" you can change the content based on the id </p>
+
+    <br>
+
+    <p>Java Script can also change the HTML attribute values.</p>
+    <p>Now we are going to change the source of an image</p>
+
+    <button onclick="document.getElementById('myImage').src='images/pic_bulbon.gif'">TURN THE LIGHTS ON BABY</button>
+
+    <img id="myImage" src="images/pic_bulbon.gif" style="width: 100px;">
+
+    <button onclick="document.getElementById('myImage').src='images/pic_bulboff.gif'">TURN THE LIGHTS OFF BABY</button>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <iframe style="height: 200px; width: auto;" src="https://open.spotify.com/embed/track/5aTsxlQlq0vIedDWZoqMWN?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+    <p>with the iframe code you can embed links from other websites</p>
+
+    <br>
+
+    <p id="demo2"></p>
+
+    <script>
+        document.getElementById("demo2").innerHTML="JavaScript is written between script tags"
+    </script>
+
+    <br>
+
+    <p>we can also store JS files externally and reference them in the index html file</p>
+
+    <br><br><br>
+    <p id="demo3">if you change me, i will be gone forever. JK</p>
+
+    <button onclick="myFunction()">try clicking this button</button>
+
+    <p>this button links to a javascript file called myScript.js</p>
+
+    <script src="myScript.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
